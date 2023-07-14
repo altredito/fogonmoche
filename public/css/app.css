@@ -1,0 +1,477 @@
+.activo a{
+    color:#b37a64;
+    text-decoration: underline;
+  
+  }
+
+  .tam{
+    height: 100vh;
+  }
+
+
+  .prueba{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+ 
+  }
+
+  .fondo{
+    background: #b37a64;
+    border-radius: 2px;
+    height: 40px;
+    width: 120px;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .centro{
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .vc{
+  
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+
+  .vc1{
+  position:absolute;
+  }
+
+  .vc2{
+   position: relative;
+  }
+
+  .celdas{
+    align-items: center; 
+
+    justify-content: center;
+  }
+
+  @font-face
+    {
+    font-family: 'Timeless-Normal';
+    src: url('/fonts/Timeless.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face
+    {
+    font-family: 'esthetique';
+    src: url('/fonts/esthetique.otf');
+
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.text{
+
+font-family: 'Timeless-Normal' ;
+font-size: 1.2vw;
+
+}
+.navbar{
+background-color: white;
+
+height:60px;
+}
+.nav-link{
+color: rgb(82, 81, 69) ;
+}
+
+.el{
+  margin-right: 70px;
+}
+
+.titulo{
+    font-family: 'esthetique';
+    color:#b37a64;
+    font-size: 4vw;
+}
+
+.titulo1{
+  font-family: 'esthetique';
+  color:#28334d;
+  font-size: 4vw;
+}
+
+
+.parrafo{
+    font-size: 1.2vw;
+}
+
+.subparrafo{
+    font-size: 1.2vw;
+    color:rgb(139, 139, 139);
+}
+
+.contenedor{
+    width: 80%; /* El ancho ocupa el 80% de la pantalla */
+    height: auto;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+.tables{
+    width: 80%; /* El ancho ocupa el 80% de la pantalla */
+    height: auto;
+    position: relative;
+    
+   
+}
+
+ 
+
+.conso{
+  /* El ancho ocupa el 80% de la pantalla */
+  width: 50%;  
+  height: auto;
+}
+
+.conso1{
+  /* El ancho ocupa el 80% de la pantalla */
+  width: 30%;  
+  height: auto;
+}
+.contenedore{
+  width: 70%; /* El ancho ocupa el 80% de la pantalla */
+  height: auto;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.cc{
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr ;
+    column-gap: 1px;
+}
+
+.texto{
+    height: auto;
+    background-image: url('/imagenes/utensilios.png');
+    background-size: 500px 500px;
+    background-position: center; 
+    
+    display: inline-block;
+   
+}
+
+.imagen {
+  /* El ancho ocupa la mitad del contenedor */
+  height: auto; /* La altura se ajusta automáticamente al contenido */
+  display: flex; /* Activa el flexbox */
+  justify-content: center; /* Centra horizontalmente la imagen */
+  align-items: center;
+}
+
+.imagen img {
+  max-width: 90%; /* La imagen no excede el ancho del contenedor */
+  max-height: 90%; /* La imagen no excede la altura del contenedor */
+}
+
+
+
+.imagen1{
+  width: 350px;
+  height:350px;
+}
+
+.texto1{
+    width: 100%;
+    height:150px;
+    background-image: url('/imagenes/utensilios.png');
+    background-size: 500px 500px;
+    background-position: center; 
+    
+    display: inline-block;
+}
+
+.texto10{
+  width: 100%;
+  height:150px;
+    background-image: url('/imagenes/utensilios.png');
+    background-size: 500px 500px;
+    background-position: center; 
+    
+    display: inline-block;
+}
+
+.texto2{
+  width: 100%;
+    height:70px;
+
+     display: flex;
+    justify-content: center; /* Alineación horizontal al centro */
+    align-items: center; 
+}
+
+.cc2{
+  width: 100%;
+  height: 70px;
+
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+
+
+
+}
+.cc3{
+  width: 100%;
+  height: 200px;
+
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+
+
+
+}
+.cc4{
+  width: 100%;
+  height: 100%;
+
+  align-items: center; 
+ 
+  justify-content: center;
+
+}
+
+
+.registro{
+  background: #28334d;
+  border-radius: 4px;
+  width: 30%;
+  height: 3vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.botinfo{
+  background: #28334d;
+  border-radius: 4px;
+  width: 250px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tmenu{
+  background: #28334d;
+  border-radius: 4px;
+  width: 150px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white
+}
+.tamaño{
+  height: 100vh;
+}
+
+.divc{
+  display: flex;
+  justify-content: center; /* Alineación horizontal al centro */
+  align-items: center; 
+}
+
+.tdisplay{
+  border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.plato,
+.desayuno,
+.postres,
+.segundos,
+.pescados,
+.bebidas,
+.menuim {
+    width: 11vw;
+    height: 11vw;
+    border-radius: 4px;
+    background-size: cover; /* El fondo se ajusta para cubrir completamente el contenedor */
+    background-position: center;
+}
+
+.img {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 4px;
+  background-size: cover; /* El fondo se ajusta para cubrir completamente el contenedor */
+  background-position: center;
+}
+/* Establece los fondos de las imágenes en cada enlace */
+.plato {
+    background-image: url('/imagenes/fondo.jpg');
+}
+
+.desayuno {
+    background-image: url('/imagenes/desayunos.jpg');
+}
+
+.postres {
+    background-image: url('/imagenes/postres.jpg');
+}
+
+.segundos {
+    background-image: url('/imagenes/segundos.jpg');
+}
+
+.pescados {
+    background-image: url('/imagenes/pescados.jpg');
+}
+
+.bebidas {
+    background-image: url('/imagenes/bebidas.jpg');
+}
+
+.contacto{
+  background:  #f5f2f2;
+  border-radius: 100px;
+  width: 600px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white
+}
+
+.oo{
+  font-family: 'Timeless-Normal' ;
+font-size: 17px;
+  color: rgb(82, 81, 69) ;
+}
+
+.perfil{
+  background:  white;
+  border-radius: 5px;
+}
+.infop{
+  background:  #f5f2f2;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  width:700px;
+  height:auto;
+}
+
+.infop1{
+  background:  #f5f2f2;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  width:700px;
+  height:400px;
+}
+.reservas{
+  background:  #f5f2f2;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  width:505px;
+  height:400px;
+}
+.lista{
+  background:  #f5f2f2;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  
+}
+.listas{
+  background:  white;
+  border-radius: 20px;
+}
+
+.listas td{
+  width:200px;
+  
+}
+
+
+.custom-prev-icon,
+.custom-next-icon {
+  background-color: #28334d; /* Cambia aquí el color deseado */
+  /* Otros estilos de diseño si los necesitas */
+  border-radius: 50%;
+  width:30px;
+  height:30px;
+}
+.modal-dialog {
+  max-width: 35vw;
+  max-height: 35vw; /* Ajusta el tamaño máximo del modal */
+  margin: 5vw auto; /* Ajusta los márgenes superior e inferior del modal */
+}
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modal-image {
+  width: 35vw;
+  height: 30vw;
+}
+.custom-file-input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.custom-file-input input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  opacity: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-file-input .custom-file-control:before {
+  content: "Seleccionar archivo";
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 20px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.custom-file-input .custom-file-control:before .fa-upload {
+  margin-right: 10px;
+}
