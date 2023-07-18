@@ -134,7 +134,7 @@ color: rgb(82, 81, 69) ;
     width: 80%; /* El ancho ocupa el 80% de la pantalla */
     height: auto;
     position: relative;
-    
+    margin: 0 auto;
    
 }
 

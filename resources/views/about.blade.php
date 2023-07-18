@@ -19,9 +19,9 @@
 <br>
 <br>
 <br>
-<section>
+
         <h1 align="center" class="titulo" style="font-size: 30px;">Nuestra fundadora</h1>
-        <h1 class="oo" align="center">
+        <h1 class="oo">
         <table class="tables">
             <tr>
                 <td class="conso">
@@ -46,8 +46,8 @@
                 </td>
                 <td class="conso1">
                     <div  class="imagen">
-                        <img src="/imagenes/fogon.png" alt="fogon">
-                        </div>
+                        <img src="/imagenes/seño.jpeg" alt="fogon" style="border-radius: 20px;">
+                    </div>
                 </td>
             </tr>
         </table>
